@@ -2,8 +2,8 @@
 from game_data import data
 #import art file
 import art
-import random
-from replit import clear
+# import random
+# from replit import clear
 
 score = 0
 is_true = True
