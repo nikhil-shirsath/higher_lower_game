@@ -2,7 +2,7 @@
 from game_data import data
 #import art file
 import art
-# import random
+import random
 # from replit import clear
 
 score = 0
@@ -11,7 +11,7 @@ is_true = True
 #generate a_player and b_player randomly
 
 while (is_true):
-    clear()
+    #clear()
     print(art.logo)
     print(f"Your score is {score}")
 
@@ -38,6 +38,6 @@ while (is_true):
         score += 1
 
     else:
-        clear()
+        #clear()
         print(f"You lost , your score is {score}")
         is_true = False
